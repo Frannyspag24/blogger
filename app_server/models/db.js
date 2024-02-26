@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://localhost/Cluster0';
+var dbURI = 'mongodb://44.201.198.172:27017/blogger';
 mongoose.connect(dbURI);
 // Monitor and report when database is connected                      
 mongoose.connection.on('connected', function () {
