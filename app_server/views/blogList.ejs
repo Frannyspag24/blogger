@@ -7,16 +7,10 @@
     </title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/fontawesome-all.css" />
 </head>
 
 <body>
-    <div class="container">
-        <% include ./partials/nav %>
-            <!-- <% let blog={}; %> -->
-
-                <!-- <% include ./partials/showblog %>-->
-
-    </div> <!-- container -->
     <br>
     <h1>
         <%= title %>
@@ -26,7 +20,14 @@
     <p>
 
     </p>
+
+    <div class="container">
+        <% include ./partials/nav %>
+            <% include ./partials/showblog %>
+
+    </div> <!-- container -->
 </body>
+
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
