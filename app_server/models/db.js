@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://44.201.198.172:27017/blogger';
+var dbURI = 'mongodb+srv://cluster0.1rzy6mn.mongodb.net/';
 mongoose.connect(dbURI);
 // Monitor and report when database is connected                      
 mongoose.connection.on('connected', function () {
